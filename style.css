@@ -1,0 +1,47 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+main{
+    height:100vh;
+    width:100vw;
+}
+.left{
+    display: inline-block;
+    height:100%;
+    width:50%;
+    background-image:url(https://images.unsplash.com/photo-1561731216-c3a4d99437d5?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.right{
+    display: inline-block;
+    height:100%;
+    width:50%;
+    background-image:url(https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #ca9b34;
+}
+.left.overlay{
+    height:100%;
+    width:100% ;
+    background-color:bisque;
+
+}
+.right.overlay{
+    height:100%;
+    width:100%;
+    background-color:rgb(36, 199, 144);
+}
