@@ -31,8 +31,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
-    color: #ca9b34;
+    font-size: 70px;
+    color: #f5aa07cb;
 }
 .left.overlay{
     height:100%;
@@ -43,5 +43,5 @@ main{
 .right.overlay{
     height:100%;
     width:100%;
-    background-color:rgb(36, 199, 144);
+    background-color:rgba(196, 199, 36, 0.918);
 }
